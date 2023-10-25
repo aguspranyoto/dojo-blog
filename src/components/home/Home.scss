@@ -1,16 +1,14 @@
+* {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  color: #333;
+}
 .form {
   display: flex;
   flex-direction: column;
   gap: 10px;
   justify-content: center;
   align-items: center;
-}
-
-input {
-  width: 200px;
-  border: none;
-  -webkit-box-shadow: 5px 5px 13px 4px rgba(0, 0, 0, 0.28);
-  box-shadow: 5px 5px 13px 4px rgba(0, 0, 0, 0.28);
 }
 
 button {
@@ -37,4 +35,7 @@ button {
   font-size: 20px;
   color: #f1356d;
   margin-bottom: 8px;
+}
+.blog-preview a {
+  text-decoration: none;
 }
